@@ -11,3 +11,4 @@ ls -lan: Display current directory contents.
 mkdir /tmp/my_first_directory: script that creates a directory named my_first_directory in the /tmp/ directory.
 mv /tmp/betty /tmp/my_first_directory/ :Move the file betty from /tmp/ to /tmp/my_first_directory.
 rm /tmp/my_first_directory/betty - script deletes The file betty is in /tmp/my_first_directory
+rmdir /tmp/my_first_directory - script Deletes the directory my_first_directory that is in the /tmp directory.
