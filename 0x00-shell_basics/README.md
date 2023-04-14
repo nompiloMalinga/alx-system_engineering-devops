@@ -14,4 +14,5 @@ rm /tmp/my_first_directory/betty - script deletes The file betty is in /tmp/my_f
 rmdir /tmp/my_first_directory - script Deletes the directory my_first_directory that is in the /tmp directory.
 cd - changes the working directory to the previous one
  List all files in the current directory, including hidden files, in long format
-ls -la . .. /boot : lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+ls -la . .. /boot : lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format
+ln -s /bin/ls __ls__ :Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory. 
