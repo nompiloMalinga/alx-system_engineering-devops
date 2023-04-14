@@ -12,5 +12,15 @@ mkdir /tmp/my_first_directory: script that creates a directory named my_first_di
 mv /tmp/betty /tmp/my_first_directory/ :Move the file betty from /tmp/ to /tmp/my_first_directory.
 rm /tmp/my_first_directory/betty - script deletes The file betty is in /tmp/my_first_directory
 rmdir /tmp/my_first_directory - script Deletes the directory my_first_directory that is in the /tmp directory.
-cd - changes the working directory to the previous one.
+cd - changes the working directory to the previous one
+ List all files in the current directory, including hidden files, in long format
+ls -la
+
+ Change to the parent directory of the working directory and list all files there
+cd ..
+ls -la
+
+ Change to the /boot directory and list all files there
+cd /boot
+ls -la
 
