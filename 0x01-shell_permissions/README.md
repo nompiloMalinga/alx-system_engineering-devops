@@ -4,4 +4,6 @@ groups - script that prints all the groups the current user is part of.
 chown -script that changes the owner of the file hello to the user betty.
 touch - creates an empty file
 chmod u+x hello -script that adds execute permission to the owner of the file hello.
-chmod u+x,g+x,o+r hello - cript that adds execute permission to the owner and the group owner, and read permission to other users, to the file hell
+chmod u+x,g+x,o+r hello - cript that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
+chmod a+x hello -script that adds execution permission to the owner, the group owner and the other users, to the file hello
+
