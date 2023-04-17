@@ -14,3 +14,5 @@ find . -type d | wc -l - script that counts the number of directories and sub-di
 
 ls -lt | head -11 | tail -10 -  script that displays the 10 newest files in the current directory:
 sort | uniq -u -script that takes a list of words as input and prints only words that appear exactly once.
+grep -i "root" /etc/passwd -Display lines containing the pattern “root” from the file /etc/passwd
+
