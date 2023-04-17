@@ -11,8 +11,7 @@ ls -la >| ls_cwd_content -  script that writes into the file ls_cwd_content the 
 tail -n 1 iacta >> iacta -Write a script that duplicates the last line of the file iacta
 find . -type f -name '*.js' -delete -script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 find . -type d | wc -l - script that counts the number of directories and sub-directories in the current directory.
-
-ls -lt | head -11 | tail -10 -  script that displays the 10 newest files in the current directory:
+ls -t1 | head -n 10 -  script that displays the 10 newest files in the current directory:
 sort | uniq -u -script that takes a list of words as input and prints only words that appear exactly once.
 grep -i "root" /etc/passwd -Display lines containing the pattern “root” from the file /etc/passwd
 grep -c -i "bin" /etc/passwd -Display the number of lines that contain the pattern “bin” in the file /etc/passwd
