@@ -13,3 +13,4 @@ find . -type f -name '*.js' -delete -script that deletes all the regular files (
 find . -type d | wc -l - script that counts the number of directories and sub-directories in the current directory.
 
 ls -lt | head -11 | tail -10 -  script that displays the 10 newest files in the current directory:
+sort | uniq -u -script that takes a list of words as input and prints only words that appear exactly once.
